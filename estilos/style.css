@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Resolução das Telas:
+320px — 480px: dispositivos móveis.
+481px — 768px: iPads, tablets.
+769px — 1024px: telas pequenas, laptops.
+1025px — 1200px: desktops, telas grandes.
+1201px e acima — telas muito grandes, TVs.
+-
+Paleta de Cores:
+azul escuro fosco: #161F30
+verde escuro fosco: #173540
+verde/azul fosco: #217373
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-azul:#161F30;
+    --cor-verde:#173540;
+    --cor-ambos:#217373;
+}
+
+body, html {
+    background-color: var(--cor-azul);
+    height: 97vh;
+    width: 97vw;
+}
+
+header {
+    background-color: #18264456;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #173540;
+}
+
+header p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+    
