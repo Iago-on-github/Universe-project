@@ -28,12 +28,13 @@ verde/azul fosco: #217373
 
 body, html {
     background-color: var(--cor-azul);
-    height: 97vh;
-    width: 97vw;
+    height: 96vh;
+    width: 96vw;
 }
 
 header {
     background-color: #18264456;
+    padding: 10px;
 }
 
 header h1 {
@@ -51,5 +52,39 @@ nav > ul > li {
     display: inline-block;
     list-style-type: none;
     padding: 10px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav > ul > li:hover {
+    background-color: #217373;
+    border-radius: 2px;
+}
+
+main {
+    
+}
+
+main h2 {
+    padding: 20px;
+}
+
+div#img01 {
+    display: block;
+    background-color: white;
+    width: 481px;
+    height: 768px;
+
+    background-image: url(../imagens/pexels-james-wheeler-1542493\ \(2\).jpg);
+    background-position: center center;
+    background-size: cover;
+
+    margin: auto;
+    border-radius: 4px;
 }
     
