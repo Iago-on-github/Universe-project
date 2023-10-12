@@ -46,6 +46,7 @@ header h1 {
 header p {
     text-align: center;
     font-size: 0.8em;
+    margin-bottom: 10px;
 }
 
 nav > ul > li {
@@ -67,7 +68,9 @@ nav > ul > li:hover {
 }
 
 main {
-    
+    background-color: black;  
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 main h2 {
@@ -76,15 +79,75 @@ main h2 {
 
 div#img01 {
     display: block;
-    background-color: white;
+    background-color: black;
     width: 481px;
-    height: 768px;
+    height: 430px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(../imagens/pexels-mengliu-di-3213577.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
+div#topics > section {
+    display: inline-block;
+    background-color: gray;
+    padding: 20px;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+section > div#img-topic {
+    /*display: block;
+    background-color: white;
+    width: 50%;
+    height: 100%;
     background-image: url(../imagens/pexels-james-wheeler-1542493\ \(2\).jpg);
     background-position: center center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover; */ 
+}
 
-    margin: auto;
-    border-radius: 4px;
+div#topics > section a {
+    text-decoration: none;
+}
+
+div#topics > section ul.list {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul.list > li {
+    text-indent: 10px;
+}
+
+ul.list > li.li2 {
+    text-indent: 20px;
+}
+
+ul.list > li.li3 {
+    text-indent: 30px;
 }
     
+aside {
+    background-color: #173540;
+    text-indent: 10px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: gray;
+    height: 200px;
+}
+
+footer p {
+    text-indent: 20px;
+}
