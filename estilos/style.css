@@ -28,8 +28,6 @@ verde/azul fosco: #217373
 
 body, html {
     background-color: var(--cor-azul);
-    height: 96vh;
-    width: 96vw;
 }
 
 header {
@@ -71,24 +69,14 @@ main {
     background-color: black;  
     margin-bottom: 20px;
     padding-bottom: 20px;
-}
-
-main h2 {
-    padding: 20px;
-}
-
-div#img01 {
-    display: block;
-    background-color: black;
-    width: 481px;
-    height: 430px;
-    margin: auto;
-    margin-top: 20px;
     background-image: url(../imagens/pexels-mengliu-di-3213577.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+
+main h2 {
+    padding: 20px;
 }
 
 div#topics > section {
@@ -99,17 +87,6 @@ div#topics > section {
     width: 50%;
     border-radius: 10px;
     margin-left: 10px;
-}
-
-section > div#img-topic {
-    /*display: block;
-    background-color: white;
-    width: 50%;
-    height: 100%;
-    background-image: url(../imagens/pexels-james-wheeler-1542493\ \(2\).jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */ 
 }
 
 div#topics > section a {
@@ -134,20 +111,44 @@ ul.list > li.li3 {
 }
     
 aside {
+    margin-bottom: 20px;
+}
+
+aside p {
     background-color: #173540;
+    color: antiquewhite;
     text-indent: 10px;
     font-size: 1.1em;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 475px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+strong {
+    color: black;
 }
 
 footer {
     background-color: gray;
-    height: 200px;
+}
+
+footer h4 {
+    text-indent: 30px;
+    font-size: 1.2em;
 }
 
 footer p {
-    text-indent: 20px;
+    text-indent: 10px;
+    padding: 10px;
 }
+
+footer p.foot {
+    background-color: #161F30;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 10px;
+}
+
