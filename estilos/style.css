@@ -121,7 +121,7 @@ aside p {
     color: antiquewhite;
     text-indent: 10px;
     font-size: 1.1em;
-    width: 475px;
+    max-width: 375px;
     padding: 10px;
     border-radius: 5px;
 }
