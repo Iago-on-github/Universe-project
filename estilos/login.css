@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #173540;
+}
+
+header h1 {
+    background-color: #217373;
+    padding: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+main {
+    display: block;
+    position: relative;
+}
+
+section form > legend p {
+    padding: 10px;
+    font-size: 2em;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+section form {
+    display: block;
+    background-color: bisque;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+section form > div#caixa {
+    padding: 10px;
+}
+
+main > div#conteiner {
+    display: block;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+main div#img {
+    display: block;
+    background-color: black;
+    background-image: url(../imagens/pexels-login-6945926.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
