@@ -37,8 +37,68 @@ section form {
     width: 300px;
 }
 
-section form > div#caixa {
-    padding: 10px;
+form div.user {
+    background-color: #173540;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+form div.senha {
+    background-color: #173540;
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+form div.user input[type = text] {
+    border-radius: 5px;
+    
+}
+
+form div#button input[type = submit] {
+    display: block;
+    font-size: 1.1em;
+    background-color: #217373;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    color: antiquewhite;
+    padding: 3px;
+    margin-bottom: 2px;
+}
+
+form div#button input[type = submit]:hover {
+    background-color: lightcyan;
+    color: black;
+    font-style: bold;
+}
+
+form div#button a {
+    display: block;
+    font-size: 1.1em;
+    background-color: #217373;
+    border-radius: 5px;
+    width: 98%;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    padding: 3px;
+    text-align: center;
+}
+
+form div#button a:hover {
+    background-color: lightcyan;
+    color: black;
+    font-style: bold;
 }
 
 main > div#conteiner {

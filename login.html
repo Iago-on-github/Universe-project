@@ -18,14 +18,15 @@
                         <p>Faça Login</p>
                     </legend>
                     <hr>
-                    <div id="caixa">
-                        <label for="iuser">Usuário:</label>
-                        <input type="text" name="user" id="iuser">
-                        <br>
-                        <label for="ipass">Senha:</label>
-                        <input type="password" name="pass" id="ipass">
-                    </div>
-                    <div>
+                        <div class="user">
+                            <label for="iuser">Usuário:</label>
+                            <input type="text" name="user" id="iuser" minlength="5" maxlength="15" required placeholder="User">
+                        </div>                       
+                        <div class="senha">
+                            <label for="ipass">Senha:</label>
+                            <input type="password" name="pass" id="ipass" minlength="5" maxlength="15" required placeholder="Password">
+                        </div>
+                    <div id="button">
                         <input type="submit" value="Enviar">
                         <a href="#">Esqueci minha senha</a>
                     </div>
