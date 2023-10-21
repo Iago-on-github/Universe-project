@@ -116,7 +116,6 @@ ul.list > li:hover {
     display: inline-block;
     border: 1px solid gray;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
-    transition: transform 0.4s border 0.9s;
 }
 
 h3 a:hover {
@@ -137,6 +136,12 @@ div.img2 {
     background-size: cover;
     height: 600px;
     margin-top: 20px;
+    transition: 0.7s;
+}
+
+div.img2:hover {
+    background-image: url(../imagens/pexels-mengliu-di-3213577.jpg);
+    transition: transform 2s border 2s;
 }
 
 aside p {
@@ -190,7 +195,7 @@ footer > section > a > img {
 }
 
 footer > section > a > img:hover {
-    border: 2px solid rgba(0, 0, 0, 0.322);
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.397);
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
     transition: transform 0.4s border 0.9s;
 }
