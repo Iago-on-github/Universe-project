@@ -33,6 +33,10 @@ body, html {
 header {
     background-color: #18264456;
     padding: 10px;
+    background-image: url(../imagens/pexels-ahmad-18504966.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header h1 {
@@ -71,10 +75,6 @@ main {
     background-color: black;  
     margin-bottom: 20px;
     padding-bottom: 20px;
-    background-image: url(../imagens/pexels-mengliu-di-3213577.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 main h2 {
@@ -111,9 +111,32 @@ ul.list > li.li2 {
 ul.list > li.li3 {
     text-indent: 30px;
 }
+
+ul.list > li:hover {
+    display: inline-block;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    transition: transform 0.4s border 0.9s;
+}
+
+h3 a:hover {
+    display: inline-block;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.315);
+}
     
 aside {
     margin-bottom: 20px;
+}
+
+div.img2 {
+    background-color: black;
+    background-image: url(../imagens/pexels-james-wheeler-1542493\ \(2\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 20px;
 }
 
 aside p {
@@ -135,18 +158,18 @@ footer {
     background-color: gray;
 }
 
-footer h4 {
-    text-indent: 25px;
-    font-size: 1.2em;
+footer section > h5.h5redes{
+    font-size: 1.1em;
+    padding: 10px 10px 10px 10px;  
 }
 
-footer section > h5.h5redes{
-    font-size: 1.2em;
-    padding: 10px 10px 10px 10px;
-    
+footer > h4 {
+    text-indent: 25px;
+    font-size: 1em;
 }
 
 footer p {
+    font-size: 0.8em;
     text-indent: 30px;
     padding: 10px;
 }
